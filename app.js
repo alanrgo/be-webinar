@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import usersRouter from "./routes/users.js";
 import cardRoutes from "./routes/cards.js";
 import dotenv from "dotenv";
+import cors from "cors";
 
 dotenv.config();
 const app = express();
